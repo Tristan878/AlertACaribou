@@ -1,0 +1,57 @@
+.logo_central img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #085699;
+}
+
+.planning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0 2rem 0;
+}
+
+.planning>img {
+  width: 45%;
+  height: auto;
+}
+
+.news-insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.separation {
+  margin: auto;
+  border-bottom: #ffb347 2px solid;
+  width: 75%;
+
+}
+
+.posts_instagram {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+
+}
+
+.post_instagram {
+  display: flex;
+  justify-content: center;
+}
+
+.post_instagram>img {
+  width: 75%;
+  height: auto;
+}
+
+

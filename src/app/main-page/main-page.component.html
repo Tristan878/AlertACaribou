@@ -1,0 +1,23 @@
+<app-menu></app-menu>
+<div class="logo_central">
+  <img ngSrc="/assets/bande.png" alt="logo" height="547" width="1372"/>
+</div>
+
+<div class="planning">
+  <h1>LE PLANNING</h1>
+  <img ngSrc="/assets/planning.png" alt="planning" height="493" width="793">
+  <app-planning></app-planning>
+</div>
+
+<div class="separation"></div>
+
+<div class="news-insta">
+  <h1>V'NEZ TI PAS VOIR SQUI SPASSE SUR INSTA</h1>
+  <div class="posts_instagram">
+    <div class="post_instagram" *ngFor="let i of [0, 1, 2]">
+      <img ngSrc="/assets/insta.png" alt="post instagram" height="706" width="503"/>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

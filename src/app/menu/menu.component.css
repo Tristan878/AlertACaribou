@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffc87c;
+
+  height: 80px;
+  background-color: #006dcb;
+  font-size: 20px;
+  border-bottom: #085699 3px solid;
+}
+
+nav>a>span {
+  margin: 0 10px 0 10px;
+  padding : 5px;
+  border-radius: 5px;
+}
+
+nav>a>span:hover {
+  background-color: #085699;
+  color: #ffb347;
+}
+
+nav>a>img {
+  width: 60px;
+  height: 60px;
+  margin: 0 60px 0 40px;
+  border-radius: 100%;
+}
+
+
+
