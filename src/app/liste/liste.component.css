@@ -26,6 +26,7 @@ h1 {
     height: auto;
     object-fit: contain;
     margin-bottom: 5px;
+    border-radius: 5%;
   }
   
   .partner h3 {
