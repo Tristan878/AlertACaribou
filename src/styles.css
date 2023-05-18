@@ -59,6 +59,11 @@ a {
 }
 
 h1 {
-  font-family: 'Federo', sans-serif;
+  font-family: 'Baywatch';
   font-size: 2rem;
+}
+
+@font-face {
+  font-family: 'Baywatch';
+  src: url("assets/Baywatch.otf");
 }
