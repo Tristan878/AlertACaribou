@@ -12,14 +12,9 @@ interface Photo {
 })
 export class BestPhotosSectionComponent {
   photos: Photo[] = [
-    { src: 'photo1.jpg', alt: 'Photo 1' },
+    { src: 'assets/best-photos/clean_walk.jpg', alt: 'Photo 1' },
     { src: 'photo2.jpg', alt: 'Photo 2' },
     { src: 'photo3.jpg', alt: 'Photo 3' }
   ];
 
-  addPhoto() {
-    // Ici, vous pouvez ajouter la logique pour permettre à l'utilisateur d'ajouter une photo,
-    // par exemple, en affichant un formulaire de téléchargement d'image ou en ouvrant une boîte de dialogue pour sélectionner une image.
-    // Une fois que vous avez l'URL de la nouvelle photo, vous pouvez l'ajouter au tableau photos.
-  }
 }
