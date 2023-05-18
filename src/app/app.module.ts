@@ -9,6 +9,12 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { PlanningComponent } from './planning/planning.component';
 import { ListeComponent } from './liste/liste.component';
+import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
+import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
+import { PartenariatsComponent } from './partenariats/partenariats.component';
+import { BestPhotosSectionComponent } from './main-page/best-photos-section/best-photos-section.component';
+import { AllosComponent } from './main-page/allos/allos.component';
+import { AllosCarouselComponent } from './main-page/allos-carousel/allos-carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +23,13 @@ import { ListeComponent } from './liste/liste.component';
     MainPageComponent,
     FooterComponent,
     PlanningComponent,
-    ListeComponent
-  ],
+    ListeComponent,
+    CookiePopupComponent,
+    VoteButtonComponent,
+    PartenariatsComponent,
+    BestPhotosSectionComponent,
+    AllosComponent,
+    AllosCarouselComponent  ],
     imports: [
         BrowserModule,
         AppRoutingModule,

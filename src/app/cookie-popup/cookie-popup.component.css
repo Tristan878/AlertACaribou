@@ -1,0 +1,10 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
