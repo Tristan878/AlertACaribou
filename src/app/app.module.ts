@@ -13,6 +13,8 @@ import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
 import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
 import { MemberPageComponent } from './liste/member-page/member-page.component';
 import { PartenariatsComponent } from './partenariats/partenariats.component';
+import { BestPhotosSectionComponent } from './main-page/best-photos-section/best-photos-section.component';
+import { AllosComponent } from './main-page/allos/allos.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,9 @@ import { PartenariatsComponent } from './partenariats/partenariats.component';
     CookiePopupComponent,
     VoteButtonComponent,
     MemberPageComponent,
-    PartenariatsComponent
-  ],
+    PartenariatsComponent,
+    BestPhotosSectionComponent,
+    AllosComponent  ],
     imports: [
         BrowserModule,
         AppRoutingModule,
