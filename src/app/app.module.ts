@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PlanningComponent } from './planning/planning.component';
 import { ListeComponent } from './liste/liste.component';
 import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
+import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
     FooterComponent,
     PlanningComponent,
     ListeComponent,
-    CookiePopupComponent
+    CookiePopupComponent,
+    VoteButtonComponent
   ],
     imports: [
         BrowserModule,
