@@ -12,6 +12,7 @@ import { ListeComponent } from './liste/liste.component';
 import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
 import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
 import { MemberPageComponent } from './liste/member-page/member-page.component';
+import { PartenariatsComponent } from './partenariats/partenariats.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MemberPageComponent } from './liste/member-page/member-page.component';
     ListeComponent,
     CookiePopupComponent,
     VoteButtonComponent,
-    MemberPageComponent
+    MemberPageComponent,
+    PartenariatsComponent
   ],
     imports: [
         BrowserModule,
