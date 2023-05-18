@@ -9,6 +9,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { PlanningComponent } from './planning/planning.component';
 import { ListeComponent } from './liste/liste.component';
+import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ListeComponent } from './liste/liste.component';
     MainPageComponent,
     FooterComponent,
     PlanningComponent,
-    ListeComponent
+    ListeComponent,
+    CookiePopupComponent
   ],
     imports: [
         BrowserModule,
