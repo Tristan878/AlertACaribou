@@ -1,0 +1,11 @@
+<div class="members">
+    <div *ngFor="let member of members" (mouseenter)="showDescription(member)" (mouseleave)="hideDescription()">
+      <img [src]="member.photoUrl" alt="Photo de {{ member.name }}">
+    </div>
+  </div>
+  
+  <div *ngIf="activeMember" class="description">
+    <h2>{{ activeMember.name }}</h2>
+    <p>{{ activeMember.description }}</p>
+  </div>
+  
