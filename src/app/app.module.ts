@@ -11,7 +11,6 @@ import { PlanningComponent } from './planning/planning.component';
 import { ListeComponent } from './liste/liste.component';
 import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
 import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
-import { MemberPageComponent } from './liste/member-page/member-page.component';
 import { PartenariatsComponent } from './partenariats/partenariats.component';
 import { BestPhotosSectionComponent } from './main-page/best-photos-section/best-photos-section.component';
 import { AllosComponent } from './main-page/allos/allos.component';
@@ -27,7 +26,6 @@ import { AllosCarouselComponent } from './main-page/allos-carousel/allos-carouse
     ListeComponent,
     CookiePopupComponent,
     VoteButtonComponent,
-    MemberPageComponent,
     PartenariatsComponent,
     BestPhotosSectionComponent,
     AllosComponent,
