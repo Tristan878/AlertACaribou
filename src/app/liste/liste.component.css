@@ -22,9 +22,10 @@ h1 {
   }
   
   .partner img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: auto;
     object-fit: contain;
+    margin-bottom: 5px;
   }
   
   .partner h3 {
