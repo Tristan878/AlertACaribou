@@ -6,24 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./allos-carousel.component.css'],
 })
 export class AllosCarouselComponent {
-  photos: { url: string, title: string }[] = [
-    { url: 'assets/allos/barman.png', title: 'Barman' },
-    { url: 'assets/allos/beerpong.png', title: 'Beerpong' },
-    { url: 'assets/allos/carwash.png', title: 'Carwash' },
-    { url: 'assets/allos/karaoke.png', title: 'Karaoke' },
-    { url: 'assets/allos/taxi.png', title: 'Taxi' }
+  currentIndex = 0;
+  images = [
+    {url: 'assets/allos/barman.png', alt: 'Barman'},
+    {url: 'assets/allos/beerpong.png', alt: 'Beerpong'},
+    {url: 'assets/allos/carwash.png', alt: 'Carwash'},
+    {url: 'assets/allos/karaoke.png', alt: 'Karaoke'},
+    {url: 'assets/allos/taxi.png', alt: 'Taxi'}
 
   ];
-
-  currentPhotoIndex = 0;
-
-  selectPhoto(index: number) {
-    // Mettez ici votre logique pour traiter la sélection d'une photo
-    console.log('Photo sélectionnée :', this.photos[index]);
-    this.currentPhotoIndex = index;
+  goToPreviousImage() {
+    this.currentIndex--;
+    if (this.currentIndex < 0) {
+      this.currentIndex = this.images.length - 1;
+    }
   }
-  /*
-  getIndicatorClass(index: number) {
-    return index === this.currentPhotoIndex ? 'active' : '';
-  }*/
+
+  goToNextImage() {
+    this.currentIndex++;
+    if (this.currentIndex >= this.images.length) {
+      this.currentIndex = 0;
+    }
+  }
 }
