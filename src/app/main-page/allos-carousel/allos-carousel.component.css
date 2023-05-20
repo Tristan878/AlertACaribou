@@ -5,14 +5,78 @@ div {
     margin-bottom: 70px;
 }
 
-img {
-    width: 200px;
-    height: auto;
-}
-
 h1 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
     color: #E11910;
 }
+
+
+/* Ajuster la hauteur du carrousel */
+.carousel {
+    height: 400px;
+    align-content: center;
+  }
+  
+  /* Personnaliser les indicateurs */
+  .carousel-indicators li {
+    background-color: #bbb;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  
+  /* Personnaliser les contrôles */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 100px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    margin: 10px 10px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M7.25 0L5.5 1.75 2.25 4l3.25 2.25 1.75-1.75L4.75 4l2.5-2.25L7.25 0z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M.75 0L0 .75 2.25 4 .75 7.25 0 6.5 2.25 4 .75 1.75.75 2.5.75 0z'/%3E%3C/svg%3E");
+  }
+  
+  /* Ajuster la taille des images */
+  .carousel-item img {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin: 10px 10px;
+  }
+
+
+/*
+<div class="photo-slider">
+  <div class="photo-container">
+    <img src="assets/allos/barman.png" alt="Photo 1">
+    <img src="assets/allos/beerpong.png" alt="Photo 2">
+    <img src="assets/allos/carwash.png" alt="Photo 3">
+    <img src="assets/allos/karaoke.png" alt="Photo 3">
+    <img src="assets/allos/taxi.png" alt="Photo 3">
+  </div>
+</div>
+*/

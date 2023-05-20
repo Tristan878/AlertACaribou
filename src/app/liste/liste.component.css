@@ -1,8 +1,15 @@
 h1 {
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    color: #E11910;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #E11910;
+}
+
+h2 {
+margin-top: 10px;
+margin-left: 50px;
+font-style: bold;
+font-family: 'Baywatch';
 }
 
 .partners {
@@ -26,10 +33,13 @@ h1 {
     height: auto;
     object-fit: contain;
     margin-bottom: 5px;
+    border-radius: 5%;
   }
   
-  .partner h3 {
+  .partner h2 {
     margin-top: 10px;
+    margin-left: 0px;
+    font-style: bold;
   }
   
   .partner p {
