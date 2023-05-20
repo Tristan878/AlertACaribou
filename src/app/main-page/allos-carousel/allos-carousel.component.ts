@@ -22,8 +22,8 @@ export class AllosCarouselComponent {
     console.log('Photo sélectionnée :', this.photos[index]);
     this.currentPhotoIndex = index;
   }
-
+  /*
   getIndicatorClass(index: number) {
     return index === this.currentPhotoIndex ? 'active' : '';
-  }
+  }*/
 }
