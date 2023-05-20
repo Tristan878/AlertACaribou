@@ -1,26 +1,26 @@
-<h1>Nos Allos disponibles toute la semaine</h1>
+<h1>Allos disponibles pendant la semaine</h1>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicateurs -->
-    <ol class="carousel-indicators">
-      <li *ngFor="let photo of photos; let i = index" [class.active]="i === 0" (click)="selectPhoto(i)"></li>
-    </ol>
-  
-    <!-- Slides -->
-    <div class="carousel-inner">
-      <div class="carousel-item" *ngFor="let photo of photos; let i = index" [class.active]="i === 0">
-        <img [src]="photo.url" alt="{{ photo.title }}" >
-      </div>
+  <!-- Indicateurs -->
+  <ol class="carousel-indicators">
+    <li *ngFor="let photo of photos; let i = index" [class.active]="i === currentPhotoIndex" (click)="selectPhoto(i)"></li>
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let photo of photos; let i = index" [class.active]="i === currentPhotoIndex">
+      <img class="d-block w-100" [src]="photo.url" alt="{{ photo.title }}">
     </div>
-  
-    <!-- Contrôles -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" style="color: black;" aria-hidden="true"></span>
-      <span class="sr-only" style="color: black;">Précédent</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
-      <span class="sr-only" style="color: black;">Suivant</span>
-    </a>
   </div>
+
+  <!-- Contrôles -->
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Précédent</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Suivant</span>
+  </a>
   
+</div>

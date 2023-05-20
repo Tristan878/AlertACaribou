@@ -15,6 +15,7 @@ import { PartenariatsComponent } from './partenariats/partenariats.component';
 import { BestPhotosSectionComponent } from './main-page/best-photos-section/best-photos-section.component';
 import { AllosCarouselComponent } from './main-page/allos-carousel/allos-carousel.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

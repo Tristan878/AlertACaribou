@@ -15,8 +15,15 @@ export class AllosCarouselComponent {
 
   ];
 
+  currentPhotoIndex = 0;
+
   selectPhoto(index: number) {
     // Mettez ici votre logique pour traiter la sélection d'une photo
     console.log('Photo sélectionnée :', this.photos[index]);
+    this.currentPhotoIndex = index;
+  }
+
+  getIndicatorClass(index: number) {
+    return index === this.currentPhotoIndex ? 'active' : '';
   }
 }

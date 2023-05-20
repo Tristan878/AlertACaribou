@@ -25,6 +25,7 @@ h1 {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    margin: 10px 10px;
   }
   
   .carousel-indicators .active {
@@ -61,9 +62,21 @@ h1 {
   
   /* Ajuster la taille des images */
   .carousel-item img {
-    width: 300px;
+    display: inline-block;
+    width: 50px;
     height: auto;
     margin: 10px 10px;
-    align-self: center;
   }
-  
+
+
+/*
+<div class="photo-slider">
+  <div class="photo-container">
+    <img src="assets/allos/barman.png" alt="Photo 1">
+    <img src="assets/allos/beerpong.png" alt="Photo 2">
+    <img src="assets/allos/carwash.png" alt="Photo 3">
+    <img src="assets/allos/karaoke.png" alt="Photo 3">
+    <img src="assets/allos/taxi.png" alt="Photo 3">
+  </div>
+</div>
+*/
