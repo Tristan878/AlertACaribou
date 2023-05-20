@@ -1,26 +1,9 @@
 <h1>Allos disponibles pendant la semaine</h1>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicateurs -->
-  <ol class="carousel-indicators">
-    <li *ngFor="let photo of photos; let i = index" [class.active]="i === currentPhotoIndex" (click)="selectPhoto(i)"></li>
-  </ol>
-
-  <!-- Slides -->
-  <div class="carousel-inner">
-    <div class="carousel-item" *ngFor="let photo of photos; let i = index" [class.active]="i === currentPhotoIndex">
-      <img class="d-block w-100" [src]="photo.url" alt="{{ photo.title }}">
-    </div>
+<div id="carousel">
+  <button (click)="goToPreviousImage()"><</button>
+  <div id="imageContainer">
+    <img *ngFor="let image of images; let i = index" [src]="image.url" [alt]="image.alt" [hidden]="currentIndex !== i">
   </div>
-
-  <!-- Contrôles -->
-  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-    <span class="sr-only">Précédent</span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-    <span class="sr-only">Suivant</span>
-  </a>
-  
+  <button (click)="goToNextImage()">></button>
 </div>
