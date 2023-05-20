@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AllosCarouselComponent {
   photos: { url: string, title: string }[] = [
-    { url: 'assets/partenaires/intersport.svg', title: 'Photo 1' },
-    { url: 'assets/partenaires/3brasseurs.png', title: 'Photo 2' },
-    { url: 'assets/best-photos/clean_walk.jpg', title: 'Photo 3' },
-    { url: 'assets/best-photos/clean_walk.jpg', title: 'Photo 3' },
-    { url: 'assets/best-photos/clean_walk.jpg', title: 'Photo 3' }
+    { url: 'assets/allos/barman.png', title: 'Barman' },
+    { url: 'assets/allos/beerpong.png', title: 'Beerpong' },
+    { url: 'assets/allos/carwash.png', title: 'Carwash' },
+    { url: 'assets/allos/karaoke.png', title: 'Karaoke' },
+    { url: 'assets/allos/taxi.png', title: 'Taxi' }
 
   ];
 
