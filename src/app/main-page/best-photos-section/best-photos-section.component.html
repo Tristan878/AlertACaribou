@@ -1,14 +1,9 @@
-<section class="best-photos">
-    <h1>Meilleures photos de la semaine</h1>
+<h1>Meilleures photos de la semaine</h1>
 
-    <div class="photo-slider">
-        <div class="photo-container">
-          <img src="assets/best-photos/clean_walk.jpg" alt="Photo 1">
-          <img src="assets/best-photos/test.jpg" alt="Photo 2">
-          <img src="photo3.jpg" alt="Photo 3">
-          <!-- Ajoutez les autres photos ici -->
-        </div>
-      </div>
-      
-  </section>
-  
+<div class="carousel">
+  <div class="slide-container" [style.transform]="'translateX(' + translateX + 'px)'">
+    <div *ngFor="let image of visibleImages" class="slide">
+      <img [src]="image.url" alt="{{ image.alt }}" class="carousel-image">
+    </div>
+  </div>
+</div>

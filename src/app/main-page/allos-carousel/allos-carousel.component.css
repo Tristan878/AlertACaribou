@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #E11910;
+}
+
 #carousel {
   margin-top: 40px;
   display: flex;
