@@ -33,9 +33,3 @@ font-family: 'Baywatch';
   .partner p {
     margin-bottom: 0;
   }
-
-app-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
