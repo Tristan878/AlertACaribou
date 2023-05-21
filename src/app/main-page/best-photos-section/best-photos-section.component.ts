@@ -13,14 +13,15 @@ interface Photo {
 export class BestPhotosSectionComponent implements OnInit{
   translateX = 0;
   images = [
-    { url: 'assets/best-photos/clean_walk.jpg', alt: 'Image 1' },
-    { url: 'assets/best-photos/test.jpg', alt: 'Image 2' },
-    { url: 'assets/best-photos/clean_walk.jpg', alt: 'Image 3' },
-    { url: 'assets/best-photos/test.jpg', alt: 'Image 4' },
-    { url: 'assets/best-photos/clean_walk.jpg', alt: 'Image 5' },
-    { url: 'assets/best-photos/test.jpg', alt: 'Image 6' },
-    { url: 'assets/best-photos/clean_walk.jpg', alt: 'Image 7' },
-    { url: 'assets/best-photos/test.jpg', alt: 'Image 8' }
+    { url: 'assets/best-photos/preparation/IMG_9858.jpg', alt: 'Image 1' },
+    { url: 'assets/best-photos/preparation/IMG_9859.jpg', alt: 'Image 2' },
+    { url: 'assets/best-photos/preparation/IMG_9853.JPG', alt: 'Image 4' },
+    { url: 'assets/best-photos/preparation/IMG_9855.JPG', alt: 'Image 5' },
+    { url: 'assets/best-photos/preparation/IMG_9857.JPG', alt: 'Image 6' },
+    { url: 'assets/best-photos/preparation/IMG_8254.JPG', alt: 'Image 7' },
+    { url: 'assets/best-photos/preparation/IMG_8322.JPG', alt: 'Image 8' },
+    { url: 'assets/best-photos/preparation/IMG_8333.JPG', alt: 'Image 9' },
+    { url: 'assets/best-photos/preparation/IMG_8454.JPG', alt: 'Image 10' }
   ];
 
   visibleImages: any[] = [];

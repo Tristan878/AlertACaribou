@@ -7,9 +7,10 @@ h1 {
 
 #carousel {
   margin-top: 40px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-content: center;
 }
 
 #carousel button{
@@ -21,3 +22,9 @@ h1 {
   color: #ffb347;
 }
 
+#carousel img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  align-self: center;
+}

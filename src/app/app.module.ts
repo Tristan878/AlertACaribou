@@ -9,11 +9,12 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { PlanningComponent } from './planning/planning.component';
 import { ListeComponent } from './liste/liste.component';
-import { CookiePopupComponent } from './cookie-popup/cookie-popup.component';
+import { CookiePopupComponent } from './cookies/cookie-popup/cookie-popup.component';
 import { VoteButtonComponent } from './main-page/vote-button/vote-button.component';
 import { PartenariatsComponent } from './partenariats/partenariats.component';
 import { BestPhotosSectionComponent } from './main-page/best-photos-section/best-photos-section.component';
 import { AllosCarouselComponent } from './main-page/allos-carousel/allos-carousel.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AllosCarouselComponent } from './main-page/allos-carousel/allos-carouse
     VoteButtonComponent,
     PartenariatsComponent,
     BestPhotosSectionComponent,
-    AllosCarouselComponent,  ],
+    AllosCarouselComponent,
+    CookiesComponent,  ],
     imports: [
         BrowserModule,
         AppRoutingModule,

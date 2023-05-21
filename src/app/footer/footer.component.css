@@ -7,6 +7,18 @@ footer {
   background-color: #E11910;
   border-top: 1px solid #ffc548;
   color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+#txt {
+  font-family: 'Baywatch';
+}
+
+#number {
+  font-weight: bold;
+}
+
 
 

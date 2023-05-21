@@ -1,3 +1,21 @@
-img {
-    margin-bottom: 80px;
-}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #E11910;
+  }
+
+.planning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 2rem 0 2rem 0;
+  }
+  
+  .planning>img {
+    width: 45%;
+    height: auto;
+    margin-bottom: 60px;
+  }
