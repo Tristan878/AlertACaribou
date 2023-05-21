@@ -2,8 +2,6 @@
 
 <div id="carousel">
   <button (click)="goToPreviousImage()"><</button>
-  <div id="imageContainer">
-    <img *ngFor="let image of images; let i = index" [src]="image.url" [alt]="image.alt" [hidden]="currentIndex !== i">
-  </div>
+  <img *ngFor="let image of images; let i = index" [src]="image.url" [alt]="image.alt" [hidden]="currentIndex !== i">
   <button (click)="goToNextImage()">></button>
 </div>

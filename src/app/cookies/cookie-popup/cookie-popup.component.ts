@@ -13,4 +13,8 @@ export class CookiePopupComponent {
     // Vous pouvez également masquer la fenêtre contextuelle à l'aide d'une variable de contrôle.
     this.cookiesAccepted = true;
   }
+
+  disablePopup() {
+    this.cookiesAccepted = true;
+  }
 }

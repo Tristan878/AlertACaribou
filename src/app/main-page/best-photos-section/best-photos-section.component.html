@@ -1,8 +1,8 @@
 <h1>Meilleures photos de la semaine</h1>
 
 <div class="carousel">
-  <div class="slide-container" [style.transform]="'translateX(' + translateX + 'px)'">
-    <div *ngFor="let image of visibleImages" class="slide">
+  <div class="slide-container">
+    <div class="slide" *ngFor="let image of images">
       <img [src]="image.url" alt="{{ image.alt }}" class="carousel-image">
     </div>
   </div>

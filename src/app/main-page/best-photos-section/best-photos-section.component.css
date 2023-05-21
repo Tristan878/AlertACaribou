@@ -1,22 +1,7 @@
 h1 {
   text-align: center;
-  margin-bottom: 50px;
   margin-top: 50px;
   color: #E11910;
-}
-
-.carousel {
-  width: 100%;
-  margin-bottom: 40px;
-  overflow: hidden;
-  margin-bottom: 90px;
-}
-
-.slide-container {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  transition: transform 0.5s ease;
 }
 
 .slide {
@@ -24,6 +9,36 @@ h1 {
 }
 
 .carousel-image {
-  width: auto;
-  height: 200px;
+  width: 400px;
+  height: auto;
+}
+
+.carousel {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.slide-container {
+  width: calc(4% * 9);
+  display: flex;
+  align-items: center;
+  animation: carousel-animation 40s linear infinite; /* Ajustez la valeur en fonction de la vitesse voulu */
+}
+
+.slide {
+  flex: 0 0 80%; /* Ajustez la valeur en fonction de la largeur de chaque élément */
+  margin-right: 5px; /* Ajustez l'espacement entre les éléments */
+}
+
+
+@keyframes carousel-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-52% * 9)); /* Ajustez la valeur en fonction du nombre total d'éléments dans le carousel */
+  }
 }

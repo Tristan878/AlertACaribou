@@ -1,12 +1,12 @@
 <div class="cookie-popup" *ngIf="!cookiesAccepted">
   <p>Ce site utilise des cookies pour améliorer votre expérience. En cliquant sur "Accepter les cookies", vous acceptez
     notre politique de cookies.</p>
-    <a routerLink="/cookies" routerLinkActive="active" ariaCurrentWhenActive="page">
+    <a routerLink="/cookies" routerLinkActive="active" ariaCurrentWhenActive="page" style="margin-right: 10px">
       <button (click)="acceptCookies()">Accepter les cookies</button>
     </a>
+  <button (click)="disablePopup()">Refuser les cookies</button>
 </div>
 
 <div *ngIf="cookiesAccepted">
-  
 </div>
 

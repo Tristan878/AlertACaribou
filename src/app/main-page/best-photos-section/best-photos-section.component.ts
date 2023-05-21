@@ -46,5 +46,4 @@ export class BestPhotosSectionComponent implements OnInit{
       this.updateVisibleImages();
     }, 2000);
   }
-
 }
