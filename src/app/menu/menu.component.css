@@ -1,9 +1,9 @@
 nav {
   display: flex;
+  width: 100%;
   justify-content: flex-start;
   align-items: center;
   color: #FFC548;
-
   height: 80px;
   background-color: #E11910;
   font-size: 20px;
@@ -26,6 +26,17 @@ nav>a>img {
   height: 60px;
   margin: 0 60px 0 40px;
   border-radius: 100%;
+}
+
+@media (max-width: 630px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav > a > img {
+    margin: 10px 0;
+  }
 }
 
 
